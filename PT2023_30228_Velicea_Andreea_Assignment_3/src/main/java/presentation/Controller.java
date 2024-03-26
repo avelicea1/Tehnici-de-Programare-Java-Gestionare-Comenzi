@@ -31,7 +31,7 @@ public class Controller {
     /**
      * Constructoul clasei, in care se adauga actionListener pe toate butoanele si sunt sincronizate toate cele 4 ferestre
      *
-     * @param view
+     * @param view descr
      */
     public Controller(final View view) {
         this.view = view;

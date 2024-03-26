@@ -42,7 +42,7 @@ public class ClientDAO extends AbstractDAO<Client> {
                 String email = resultSet.getString(2);
                 String firstName = resultSet.getString(3);
                 String lastName = resultSet.getString(4);
-                lista.add(new Client(id, email, firstName,lastName)); // adaugare client in lista de clienti
+                lista.add(new Client(id, email, firstName,lastName));
             }
         } catch (SQLException e) {
 
